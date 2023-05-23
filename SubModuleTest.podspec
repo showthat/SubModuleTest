@@ -8,11 +8,11 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/showthat/SubModuleTest'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :text => 'Copyright 2023 by Lee' }
   s.authors          = 'showthat'
 
   s.source           = {
-    :git => 'https://github.com/showthat/SubModuleTest',
+    :git => 'https://github.com/showthat/SubModuleTest.git',
     :tag => s.version.to_s,
     :submodules => true
   }
