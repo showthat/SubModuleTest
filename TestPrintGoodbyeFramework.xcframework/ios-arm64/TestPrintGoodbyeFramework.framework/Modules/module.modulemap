@@ -1,0 +1,11 @@
+framework module TestPrintGoodbyeFramework {
+  umbrella header "TestPrintGoodbyeFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module TestPrintGoodbyeFramework.Swift {
+  header "TestPrintGoodbyeFramework-Swift.h"
+  requires objc
+}

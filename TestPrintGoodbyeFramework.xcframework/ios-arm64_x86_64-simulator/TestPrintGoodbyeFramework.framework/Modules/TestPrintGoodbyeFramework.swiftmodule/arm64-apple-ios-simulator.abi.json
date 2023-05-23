@@ -1,0 +1,108 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestPrintGoodbyeFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TestMainFramework",
+        "printedName": "TestMainFramework",
+        "declKind": "Import",
+        "moduleName": "TestPrintGoodbyeFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogPrinter",
+        "printedName": "LogPrinter",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "printGoodByeLog",
+            "printedName": "printGoodByeLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TestMainFramework10LogPrinterC0a12PrintGoodbyeC0E012printGoodByeD0yyF",
+            "mangledName": "$s17TestMainFramework10LogPrinterC0a12PrintGoodbyeC0E012printGoodByeD0yyF",
+            "moduleName": "TestPrintGoodbyeFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getGoodByeLog",
+            "printedName": "getGoodByeLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TestMainFramework10LogPrinterC0a12PrintGoodbyeC0E010getGoodByeD0SSyF",
+            "mangledName": "$s17TestMainFramework10LogPrinterC0a12PrintGoodbyeC0E010getGoodByeD0SSyF",
+            "moduleName": "TestPrintGoodbyeFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17TestMainFramework10LogPrinterC",
+        "mangledName": "$s17TestMainFramework10LogPrinterC",
+        "moduleName": "TestMainFramework",
+        "isExternal": true,
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "LogGoodBye",
+            "printedName": "LogGoodBye",
+            "usr": "s:17TestMainFramework10LogGoodByeP",
+            "mangledName": "$s17TestMainFramework10LogGoodByeP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestPrintGoodbyeFramework\/TestPrintGoodbyeFramework\/LogPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 17,
+      "value": "\"Goodbye Message\""
+    },
+    {
+      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestPrintGoodbyeFramework\/TestPrintGoodbyeFramework\/LogPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 17,
+      "value": "\"Goodbye Message\""
+    }
+  ]
+}

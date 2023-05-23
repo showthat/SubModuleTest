@@ -1,0 +1,308 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestMainFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestMainSDK",
+        "printedName": "TestMainSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestMainSDK",
+                "printedName": "TestMainFramework.TestMainSDK",
+                "usr": "s:17TestMainFramework0aB3SDKC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17TestMainFramework0aB3SDKC6sharedACvpZ",
+            "mangledName": "$s17TestMainFramework0aB3SDKC6sharedACvpZ",
+            "moduleName": "TestMainFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestMainSDK",
+                    "printedName": "TestMainFramework.TestMainSDK",
+                    "usr": "s:17TestMainFramework0aB3SDKC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17TestMainFramework0aB3SDKC6sharedACvgZ",
+                "mangledName": "$s17TestMainFramework0aB3SDKC6sharedACvgZ",
+                "moduleName": "TestMainFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "printLog",
+            "printedName": "printLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TestMainFramework0aB3SDKC8printLogyyF",
+            "mangledName": "$s17TestMainFramework0aB3SDKC8printLogyyF",
+            "moduleName": "TestMainFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLog",
+            "printedName": "getLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TestMainFramework0aB3SDKC6getLogSSyF",
+            "mangledName": "$s17TestMainFramework0aB3SDKC6getLogSSyF",
+            "moduleName": "TestMainFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17TestMainFramework0aB3SDKC",
+        "mangledName": "$s17TestMainFramework0aB3SDKC",
+        "moduleName": "TestMainFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TestMainFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogHello",
+        "printedName": "LogHello",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "printHelloLog",
+            "printedName": "printHelloLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TestMainFramework8LogHelloP05printeD0yyF",
+            "mangledName": "$s17TestMainFramework8LogHelloP05printeD0yyF",
+            "moduleName": "TestMainFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : TestMainFramework.LogHello>",
+            "sugared_genericSig": "<Self where Self : TestMainFramework.LogHello>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getHelloLog",
+            "printedName": "getHelloLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TestMainFramework8LogHelloP03geteD0SSyF",
+            "mangledName": "$s17TestMainFramework8LogHelloP03geteD0SSyF",
+            "moduleName": "TestMainFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : TestMainFramework.LogHello>",
+            "sugared_genericSig": "<Self where Self : TestMainFramework.LogHello>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17TestMainFramework8LogHelloP",
+        "mangledName": "$s17TestMainFramework8LogHelloP",
+        "moduleName": "TestMainFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogGoodBye",
+        "printedName": "LogGoodBye",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "printGoodByeLog",
+            "printedName": "printGoodByeLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TestMainFramework10LogGoodByeP05printefD0yyF",
+            "mangledName": "$s17TestMainFramework10LogGoodByeP05printefD0yyF",
+            "moduleName": "TestMainFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : TestMainFramework.LogGoodBye>",
+            "sugared_genericSig": "<Self where Self : TestMainFramework.LogGoodBye>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getGoodByeLog",
+            "printedName": "getGoodByeLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TestMainFramework10LogGoodByeP03getefD0SSyF",
+            "mangledName": "$s17TestMainFramework10LogGoodByeP03getefD0SSyF",
+            "moduleName": "TestMainFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : TestMainFramework.LogGoodBye>",
+            "sugared_genericSig": "<Self where Self : TestMainFramework.LogGoodBye>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:17TestMainFramework10LogGoodByeP",
+        "mangledName": "$s17TestMainFramework10LogGoodByeP",
+        "moduleName": "TestMainFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LogPrinter",
+        "printedName": "LogPrinter",
+        "declKind": "Class",
+        "usr": "s:17TestMainFramework10LogPrinterC",
+        "mangledName": "$s17TestMainFramework10LogPrinterC",
+        "moduleName": "TestMainFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/TestMainSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 12,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/TestMainSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 686,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/TestMainSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 14,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/TestMainSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 818,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/LogPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 368,
+      "length": 15,
+      "value": "\"Basic Message\""
+    },
+    {
+      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/LogPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 15,
+      "value": "\"Basic Message\""
+    }
+  ]
+}

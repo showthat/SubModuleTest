@@ -1,0 +1,11 @@
+framework module TestPrintHelloFramework {
+  umbrella header "TestPrintHelloFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module TestPrintHelloFramework.Swift {
+  header "TestPrintHelloFramework-Swift.h"
+  requires objc
+}
