@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SubModuleTest'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'My SubModule Test projects...'
 
   s.description      = <<-DESC
@@ -47,6 +47,7 @@ Pod::Spec.new do |s|
     ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[ sdk=iphonesimulator* ]' => 'arm64'}
 
     ss.dependency 'SubModuleTest/Core'
+    ss.dependency 'Alamofire'
   end
 
 
