@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SubModuleTest'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'My SubModule Test projects...'
 
   s.description      = <<-DESC
@@ -50,11 +50,14 @@ Pod::Spec.new do |s|
   end
 
 
-  s.subspec 'Basic' do |ss|
-    ss.dependency 'SubModuleTest/Core'
-    ss.dependency 'SubModuleTest/Hello'
-    ss.dependency 'SubModuleTest/GoodBye'
-    
-  end
+  # s.subspec 'Basic' do |ss|
+  #   ss.dependency 'SubModuleTest/Core'
+  #   ss.dependency 'SubModuleTest/Hello'
+  #   ss.dependency 'SubModuleTest/GoodBye'
+  # end
+
+  s.dependency 'SubModuleTest/Core'
+  s.dependency 'SubModuleTest/Hello'
+  s.dependency 'SubModuleTest/GoodBye'
 
 end
