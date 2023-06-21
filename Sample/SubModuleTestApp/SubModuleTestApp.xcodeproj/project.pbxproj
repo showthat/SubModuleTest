@@ -17,7 +17,6 @@
 /* Begin PBXFileReference section */
 		391A07A1AA77B5223B78B5B4 /* Pods-SubModuleTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubModuleTestApp.release.xcconfig"; path = "Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		5551CEB0C07265DE5D057263 /* Pods_SubModuleTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubModuleTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78007FFF2A41513800D48C4E /* SubModuleTest */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SubModuleTest; path = ../../SubModuleTest; sourceTree = "<group>"; };
 		789779AB2A1C9D4300A7EA25 /* SubModuleTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubModuleTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789779AE2A1C9D4300A7EA25 /* SubModuleTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubModuleTestAppApp.swift; sourceTree = "<group>"; };
 		789779B02A1C9D4300A7EA25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,7 +48,6 @@
 		789779A22A1C9D4300A7EA25 = {
 			isa = PBXGroup;
 			children = (
-				78007FFF2A41513800D48C4E /* SubModuleTest */,
 				789779AD2A1C9D4300A7EA25 /* SubModuleTestApp */,
 				789779AC2A1C9D4300A7EA25 /* Products */,
 				92242FCA5FFBE2C322CBC054 /* Pods */,
@@ -111,6 +109,8 @@
 			dependencies = (
 			);
 			name = SubModuleTestApp;
+			packageProductDependencies = (
+			);
 			productName = SubModuleTestApp;
 			productReference = 789779AB2A1C9D4300A7EA25 /* SubModuleTestApp.app */;
 			productType = "com.apple.product-type.application";
@@ -139,6 +139,8 @@
 				Base,
 			);
 			mainGroup = 789779A22A1C9D4300A7EA25;
+			packageReferences = (
+			);
 			productRefGroup = 789779AC2A1C9D4300A7EA25 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
