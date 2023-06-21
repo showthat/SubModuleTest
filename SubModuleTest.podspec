@@ -57,8 +57,4 @@ Pod::Spec.new do |s|
   #   ss.dependency 'SubModuleTest/GoodBye'
   # end
 
-  s.dependency 'SubModuleTest/Core'
-  s.dependency 'SubModuleTest/Hello'
-  s.dependency 'SubModuleTest/GoodBye'
-
 end
