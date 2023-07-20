@@ -22,6 +22,13 @@
         "moduleName": "TestPrintGoodbyeFramework"
       },
       {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "TestPrintGoodbyeFramework"
+      },
+      {
         "kind": "TypeDecl",
         "name": "LogPrinter",
         "printedName": "LogPrinter",
@@ -68,6 +75,27 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printGoodByeAlamofireLog",
+            "printedName": "printGoodByeAlamofireLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17TestMainFramework10LogPrinterC0a12PrintGoodbyeC0E021printGoodByeAlamofireD0yyF",
+            "mangledName": "$s17TestMainFramework10LogPrinterC0a12PrintGoodbyeC0E021printGoodByeAlamofireD0yyF",
+            "moduleName": "TestPrintGoodbyeFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -93,16 +121,23 @@
     {
       "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestPrintGoodbyeFramework\/TestPrintGoodbyeFramework\/LogPrinter.swift",
       "kind": "StringLiteral",
-      "offset": 229,
+      "offset": 257,
       "length": 17,
       "value": "\"Goodbye Message\""
     },
     {
       "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestPrintGoodbyeFramework\/TestPrintGoodbyeFramework\/LogPrinter.swift",
       "kind": "StringLiteral",
-      "offset": 323,
+      "offset": 351,
       "length": 17,
       "value": "\"Goodbye Message\""
+    },
+    {
+      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestPrintGoodbyeFramework\/TestPrintGoodbyeFramework\/LogPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 58,
+      "value": "\"https:\/\/dhnasvar.synology.me\/php\/lottoNumber.php?drwNo=1\""
     }
   ]
 }

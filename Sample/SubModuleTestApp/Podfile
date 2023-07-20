@@ -6,7 +6,8 @@ target 'SubModuleTestApp' do
   use_frameworks!
 
 
-    pod 'SubModuleTest'
+    # pod 'SubModuleTest', '~> 1.0.3'
+    pod 'SubModuleTest/Basic'
 
     #pod 'SubModuleTest/Core'
     #pod 'SubModuleTest/Hello'

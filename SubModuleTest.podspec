@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SubModuleTest'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'My SubModule Test projects...'
 
   s.description      = <<-DESC
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
 
   s.subspec 'Core' do |ss|
-    ss.vendored_frameworks = "TestMainFramework.xcframework"
+    ss.vendored_frameworks = "Sources/TestMainFramework.xcframework"
     
     ss.pod_target_xcconfig = { 'EXCLUDED_ARCHS[ sdk=iphonesimulator* ]' => 'arm64'}
     ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[ sdk=iphonesimulator* ]' => 'arm64'}
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
 
   s.subspec 'Hello' do |ss|
-    ss.vendored_frameworks = "TestPrintHelloFramework.xcframework"
+    ss.vendored_frameworks = "Sources/TestPrintHelloFramework.xcframework"
     
     ss.pod_target_xcconfig = { 'EXCLUDED_ARCHS[ sdk=iphonesimulator* ]' => 'arm64'}
     ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[ sdk=iphonesimulator* ]' => 'arm64'}
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 
 
   s.subspec 'GoodBye' do |ss|
-    ss.vendored_frameworks = "TestPrintGoodbyeFramework.xcframework"
+    ss.vendored_frameworks = "Sources/TestPrintGoodbyeFramework.xcframework"
     
     ss.pod_target_xcconfig = { 'EXCLUDED_ARCHS[ sdk=iphonesimulator* ]' => 'arm64'}
     ss.user_target_xcconfig = { 'EXCLUDED_ARCHS[ sdk=iphonesimulator* ]' => 'arm64'}

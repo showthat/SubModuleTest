@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TestPrintGoodbyeFramework-Swift.h</key>
 		<data>
-		zh/bJZ3kzYM1cVTUhzVmz/tBjVE=
+		g7rNYFClNOqN5AHGBUr2ZZ5hKaw=
 		</data>
 		<key>Headers/TestPrintGoodbyeFramework.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IIlHwZTYCeC+xf5qbi5AxJGP8Jk=
+		bfsdJ2jug3hMoa2SrejhY/00tO4=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		mjUzFELcseMMbZF3SPlS4ZxXtwY=
+		nCSyui9GO8Oe/HjDqsM/hy3OUmA=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		6oGf8uomPgqWLg0mCXX1rRqv+mo=
+		0ruQk45DR/Y0o9ynw7+elRN3UcA=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		oo1lTp8JlS+pwnS8M9Wr7j1yu3M=
+		19MFmoHEM421YX3bxVJoE97kyEY=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		6oGf8uomPgqWLg0mCXX1rRqv+mo=
+		0ruQk45DR/Y0o9ynw7+elRN3UcA=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		J0gDbvPWy5jgei9ozG6a/2kcCjA=
+		hzAtLFEj/rSCwu2J5bK0JFi5tHU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XQtBnu/+eKyCL/DtvEohapyGKzj5hipbkqzSvFPcrBw=
+			oJZ0wnVyA2MSEua5VNN83P4p+g0SsJDosedQ3qLBsbA=
 			</data>
 		</dict>
 		<key>Headers/TestPrintGoodbyeFramework.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ufygvkm3AyINBo4rjbo6Mmv7U8YYBcMFzSPkTC+0imY=
+			zevk4ewCDaXp3NMkky5Rbx00P2ByODv1MAv45CenVgk=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			duKciTVOUE0ljTCc8HkUrccz8yf6aI+Oq/DU25AAQBc=
+			SoQ1Pc7GW8dgLVNwQapLmc+XJLerZziYDW/lCcByXPI=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k/xlSGohLENkuuzYCLRkMpIpwkWfojjf1+Oyo2VOFt8=
+			4KMWjiMzkfK+poFI6KEdg122YL9/yD0AbK0Qusx9jDI=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			duKciTVOUE0ljTCc8HkUrccz8yf6aI+Oq/DU25AAQBc=
+			SoQ1Pc7GW8dgLVNwQapLmc+XJLerZziYDW/lCcByXPI=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TG9BvUk1npjX5mczCotfhdpEt9pVa8cTbbhUo4+7l/A=
+			xPu9MxvqkT59hRtfevNXGnsWWqgvtI2ToizXeaQ9iZ0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
