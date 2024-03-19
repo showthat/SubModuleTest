@@ -9,7 +9,6 @@ import SwiftUI
 import TestMainFramework
 
 
-
 struct ContentView: View {
     var body: some View {
         
@@ -19,7 +18,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             
-            Text("Hello, world!")
+            Text("Hello, world! HaHA")
                 .padding()
             
             Text(TestMainSDK.shared.getLog())

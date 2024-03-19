@@ -117,5 +117,27 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": []
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/TEST\/SubModules\/MainFrameworks\/TestPrintGoodbyeFramework\/TestPrintGoodbyeFramework\/LogPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 17,
+      "value": "\"Goodbye Message\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/TEST\/SubModules\/MainFrameworks\/TestPrintGoodbyeFramework\/TestPrintGoodbyeFramework\/LogPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 17,
+      "value": "\"Goodbye Message\""
+    },
+    {
+      "filePath": "\/Users\/enliple\/Desktop\/TEST\/SubModules\/MainFrameworks\/TestPrintGoodbyeFramework\/TestPrintGoodbyeFramework\/LogPrinter.swift",
+      "kind": "StringLiteral",
+      "offset": 448,
+      "length": 58,
+      "value": "\"https:\/\/dhnasvar.synology.me\/php\/lottoNumber.php?drwNo=1\""
+    }
+  ]
 }

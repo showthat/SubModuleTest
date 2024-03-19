@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'My SubModule Test projects...'
 
   s.description      = <<-DESC
-                       My SubModule Test projects...
+                       My SubModule Test projects... Just Test.
                        DESC
 
   s.homepage         = 'https://github.com/showthat/SubModuleTest'
@@ -20,28 +20,27 @@ Pod::Spec.new do |s|
   s.platform = :ios, "13.0"
 
 
-
-  s.subspec 'Core' do |ss|
-    ss.vendored_frameworks = "Sources/TestMainFramework.xcframework"
+  s.subspec 'Core' do |sc|
+      sc.vendored_frameworks = "Sources/TestMainFramework.xcframework"
   end
 
 
-  s.subspec 'Hello' do |ss|
-    ss.vendored_frameworks = "Sources/TestPrintHelloFramework.xcframework"
+  s.subspec 'Hello' do |sh|
+      sh.vendored_frameworks = "Sources/TestPrintHelloFramework.xcframework"
   end
 
 
-  s.subspec 'GoodBye' do |ss|
-    ss.vendored_frameworks = "Sources/TestPrintGoodbyeFramework.xcframework"
-    
-    ss.dependency 'Alamofire'
+  s.subspec 'GoodBye' do |sgb|
+      sgb.vendored_frameworks = "Sources/TestPrintGoodbyeFramework.xcframework"
+      
+      sgb.dependency 'Alamofire'
   end
 
 
-  s.subspec 'Basic' do |ss|
-    ss.dependency 'SubModuleTest/Core'
-    ss.dependency 'SubModuleTest/Hello'
-    ss.dependency 'SubModuleTest/GoodBye'
+  s.subspec 'Basic' do |sb|
+      sb.dependency 'SubModuleTest/Core'
+      sb.dependency 'SubModuleTest/Hello'
+      sb.dependency 'SubModuleTest/GoodBye'
   end
 
 end

@@ -4,9 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<data>
+		uSMgpmDgWZIfAYO2C7AELQAMEP8=
+		</data>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<data>
+		7Kla605Ldo+ZssGZ5i4R7f0N1ek=
+		</data>
+		<key>Frameworks/Alamofire.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		ovFJMFOLMjzh8DLJKmXncj8JIgU=
+		</data>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<data>
+		4ci4NG7Imh6KE84AdNwVZE0lbps=
+		</data>
 		<key>Headers/TestPrintGoodbyeFramework-Swift.h</key>
 		<data>
-		DXVv20mbxaWZpMmm1shwnCzmcyI=
+		iApyVz+ZQC2TSY/CWUyw7TF3tQU=
 		</data>
 		<key>Headers/TestPrintGoodbyeFramework.h</key>
 		<data>
@@ -14,40 +30,68 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		2cqz2HVju4NMZsNtalTN0dZv0W8=
+		437BcdH50s/bh7ixFYFTRE2d2r4=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		wRyLcqg61m6Kx7wqMHczYqIG/L4=
+		x4hOy1HmER1DAXSJLw2SLnGb2eQ=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		F6jafVu3yHZ517LecbFnrep/OHs=
+		A0dSv1UW2JnZztCmc7166pUdo3k=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		gQIIqJx04ksYN8DHAH0zGS9jpXI=
+		CBGLzFyUd95F3848p/fHcDCKvqI=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		F6jafVu3yHZ517LecbFnrep/OHs=
+		A0dSv1UW2JnZztCmc7166pUdo3k=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		BwnNXxVlrrgCI+iZvg5J16N64OI=
+		VJtHUtRGoxJi+/K6TEdJnrqtt14=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		xEHR0XInVQwL/x7Zs6zieI5N/Oc=
+		dVHgMeoHGdxrPZ3M69daZ2qpAMk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2PPHEjaB5Qdj0NF0wIS8LX8ouPtd7gZmkduMY8LExXA=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QeGQTL/b13Vu8iPtb49LRrxl6HUEI2NEq8laH8LFSS8=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J5V8jcO0KPctIvwMgoF51DD5QLzTNmNg1af6JyUL5cI=
+			</data>
+		</dict>
 		<key>Headers/TestPrintGoodbyeFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W28tzGNJMJv3VxgpgjHI1TKLddNwjWsCXRAAvJrapoA=
+			S4awdb1Ho8zLCu7KZCJf/k5Dix4Ue3Y9Dv19gWMjles=
 			</data>
 		</dict>
 		<key>Headers/TestPrintGoodbyeFramework.h</key>
@@ -61,42 +105,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eujd9gf2l584QWf0ILE9NZ6/HoU939azt6RFi/bZH4A=
+			tBO8S8zAeRZN1CmORZY1xuAOEteLxO/q/PK//HplBCU=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9IW9vl5gxWWkHA8gkJjygBhSGZdxrrcktIhTI46EkXg=
+			pkrQb4hN89thD0Y6nGpLt/TLYJEBaNa90zSNOFcVuqw=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oSiPtbh4j9Ou8dNvpZ8SdixVJCjIUIZ13MtK+dFPUH8=
+			2m/bCoL0a7ckjvK/8UWVmmi1SlfRhkmC89D5ZR0PiU8=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9IW9vl5gxWWkHA8gkJjygBhSGZdxrrcktIhTI46EkXg=
+			pkrQb4hN89thD0Y6nGpLt/TLYJEBaNa90zSNOFcVuqw=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z6GOCeOVm9/jFDSn3qziGxUBsvXNqH7dXoIaVDb9yhY=
+			bfREc5Paj0RJwtQmuLeadT4rX4nvcEyMBgnury26D+w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fos9JuSOQNfzvoLakH4t2y3BNypxC/nMxXrDOZ3fea0=
+			wnPx1aOFAG0+16WgD+77oh4XfEuHJS/+oi5qwgYUmus=
 			</data>
 		</dict>
 	</dict>
