@@ -22,13 +22,12 @@ struct ContentView: View {
             Text("Hello, world!")
                 .padding()
             
-//            Text(TestMainSDK.shared.getLog())
-//                .multilineTextAlignment(.center)
+            Text(TestMainSDK.shared.getLog())
+                .multilineTextAlignment(.center)
         }
         .padding()
         .onAppear {
-//            TestMainSDK.shared.printLog()
-            
+            TestMainSDK.shared.printLog()
         }
         
     }

@@ -4,9 +4,25 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<data>
+		+h5tV8z5NZ6PSE9SNV2RLqsFdp4=
+		</data>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<data>
+		3+ptirV0vEC14aSsYA6i3Pr4zL8=
+		</data>
+		<key>Frameworks/Alamofire.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		ovFJMFOLMjzh8DLJKmXncj8JIgU=
+		</data>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<data>
+		X2kwJPzQY2HyLHOBi/VAIMmQDbA=
+		</data>
 		<key>Headers/TestPrintGoodbyeFramework-Swift.h</key>
 		<data>
-		Xj9zRBW32Jjivpdw4K+52NcvHyc=
+		FwASGudYwX8a43mSp10BEZnqbqU=
 		</data>
 		<key>Headers/TestPrintGoodbyeFramework.h</key>
 		<data>
@@ -14,60 +30,88 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		W3/GENknYqZRACjT/pOIm5mcOL8=
+		sF5sdZbH+xCt2i+bO8efb6B1CeI=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		nCSyui9GO8Oe/HjDqsM/hy3OUmA=
+		x4hOy1HmER1DAXSJLw2SLnGb2eQ=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PQkd5hs3l8SZXRu4oODnnfgw1Oo=
+		Ax4pHtCOWX7Woo57csZlBFU/OlU=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xdb3MSwwjjXI5FUigzq8qeX40nI=
+		/2KLKavlVrwCVUOX0+dl/d6MoQA=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PQkd5hs3l8SZXRu4oODnnfgw1Oo=
+		Ax4pHtCOWX7Woo57csZlBFU/OlU=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+n7GgzgbQzF+w/Yq/DlqVF/ylfg=
+		JWayBZJQdpyjJ4HTetXbitTYyaA=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		nCSyui9GO8Oe/HjDqsM/hy3OUmA=
+		x4hOy1HmER1DAXSJLw2SLnGb2eQ=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eMw8lsNo0hIfAUQONxN+KzWfAvg=
+		2su5A1oQMR7DOAI5gP0Fxr6PXZY=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IiVqfREWCOArCNw+83D127fqcAs=
+		Eu+cSSpKO6HbZnFzOWSkTYorEbI=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eMw8lsNo0hIfAUQONxN+KzWfAvg=
+		2su5A1oQMR7DOAI5gP0Fxr6PXZY=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RpgWnWDaA6evjQvqT/dVLTSvMds=
+		YViLStVcaW7RsXa9RcnLbjqeyaA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		xEHR0XInVQwL/x7Zs6zieI5N/Oc=
+		dVHgMeoHGdxrPZ3M69daZ2qpAMk=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Frameworks/Alamofire.framework/Alamofire</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pqd2OPsnAi/WGWIEauaha4d44E2QLfU+Tg8Y2jEnlVg=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IO/dYCNiLo22e3Kav85SUxcHrKOlflAfD9wYjIojVI0=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
+			</data>
+		</dict>
+		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lQcsDzQqqFs0v9Sdi2Dn4tBPkfQ+sTIWs0+woDowKOs=
+			</data>
+		</dict>
 		<key>Headers/TestPrintGoodbyeFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HL1cbMJhSY4cENUHimKZtjRI2wCeu2jSf7+syIqmLdY=
+			Bc6OzM8PZzzNbtmGZYTG4hPd/G0eKVOqwqLw0fU5Tc8=
 			</data>
 		</dict>
 		<key>Headers/TestPrintGoodbyeFramework.h</key>
@@ -81,77 +125,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zevk4ewCDaXp3NMkky5Rbx00P2ByODv1MAv45CenVgk=
+			tBO8S8zAeRZN1CmORZY1xuAOEteLxO/q/PK//HplBCU=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0fD6+l6zcU4azFPq9jCyn0mymeVZlP8XDJaLhSj3lSQ=
+			5XDtzkhBLjQtKreM/1W7llqNfyDyu5DUErSe/lOimrI=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U3YcKkl42JzRE8jI5pLtjt3LQK9u7Hs4uzhUTEy5aDg=
+			Zrqxlv83MD5n71XhSUD9lxsF9aLl/T9eY920WtUcocE=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0fD6+l6zcU4azFPq9jCyn0mymeVZlP8XDJaLhSj3lSQ=
+			5XDtzkhBLjQtKreM/1W7llqNfyDyu5DUErSe/lOimrI=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IxkT1/JhgyIMDKCHRygMkiYyhabPv++vLuTSua1tZbk=
+			o76F6bifruGCJkeRxfJdnJD4MKY94/6+fQmZFZvVL8Y=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zevk4ewCDaXp3NMkky5Rbx00P2ByODv1MAv45CenVgk=
+			tBO8S8zAeRZN1CmORZY1xuAOEteLxO/q/PK//HplBCU=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kGiFzBKgRIh7HB87V1z/ly5QFNP5EXYcgIARxhknMHA=
+			C1Ob3paYvqYd/lViLan0tfGfi+jkHT8/Y34scOA+6HU=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mrAHlE+8IeGq05UDzuMraV7CCBSbfJzCcxZMnZsMTPM=
+			gVz6xPn6QISPdV/bkIVHGkrWSN9wz2C2KVGQZl92Whc=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kGiFzBKgRIh7HB87V1z/ly5QFNP5EXYcgIARxhknMHA=
+			C1Ob3paYvqYd/lViLan0tfGfi+jkHT8/Y34scOA+6HU=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HI07TK4O/W0GjqUutZNVTwne2d+KMYSkeyW0p1085Y4=
+			HIrdyvW84sGrWAsW0SDo/wF8HCTKVMm1qGYcvwfp3u4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fos9JuSOQNfzvoLakH4t2y3BNypxC/nMxXrDOZ3fea0=
+			wnPx1aOFAG0+16WgD+77oh4XfEuHJS/+oi5qwgYUmus=
 			</data>
 		</dict>
 	</dict>

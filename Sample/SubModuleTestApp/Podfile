@@ -4,10 +4,12 @@
 target 'SubModuleTestApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
+  
+  pod 'Alamofire'
 
 
     # pod 'SubModuleTest', '~> 1.0.3'
-    pod 'SubModuleTest/Basic'
+#    pod 'SubModuleTest/Basic'
 
     #pod 'SubModuleTest/Core'
     #pod 'SubModuleTest/Hello'

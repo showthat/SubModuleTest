@@ -1,7 +1,7 @@
 framework module TestPrintGoodbyeFramework {
   umbrella header "TestPrintGoodbyeFramework.h"
-
   export *
+
   module * { export * }
 }
 
