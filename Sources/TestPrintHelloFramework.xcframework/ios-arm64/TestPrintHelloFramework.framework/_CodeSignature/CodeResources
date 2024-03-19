@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TestPrintHelloFramework-Swift.h</key>
 		<data>
-		pdYCnMULSOl1OlM0Yi+r8ESWeWM=
+		sOZQifbKTq5XytSayt67+4m+KNU=
 		</data>
 		<key>Headers/TestPrintHelloFramework.h</key>
 		<data>
@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		B8HwyPF2Dh4tQvGGzBTzaWWNNTo=
+		tXzPqIXpyQczSiI/TLzdN9WKul0=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		kJDfcDYUlx7+QkjZKtjuSf0/lRQ=
+		7FXTpFcjlEzEUw3JjhmmEBol7rM=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		9X0rkvTlP9Mx8x8cdt9aJ7ipvz8=
+		KOWGWtnF7rSLHrgg1qFlhVBMwSw=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		cizcTsHXt6FmU6VuEMvZw7eaozY=
+		ALLKnlzVX46JE22t6/0804RlIao=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		9X0rkvTlP9Mx8x8cdt9aJ7ipvz8=
+		KOWGWtnF7rSLHrgg1qFlhVBMwSw=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		G/7D6gmXFy+xgBrN14RZ7ALQueg=
+		l3jsuygbDZ4EoIrCmMycM6W1VOk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hjse/xdRn2Cnq1vBCbbctA8W3txkmxxsCPtwumhtg+A=
+			SLQDQF+Kk3s6vsdM9rF2nyE4unILZsYQrhokxk40z08=
 			</data>
 		</dict>
 		<key>Headers/TestPrintHelloFramework.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aG6vmOreHaO8l3Cy2ZsIKJMtJOHBpWAny0jCxxtbEt8=
+			ORlA32d93yMVcgYsdCY4WT1BU195G4zrsDMGirwgops=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uF9IQqgWZNFa2WH5I4Btv3MjErgJ2Kskn9Qv5b+qBnU=
+			8KPOZUOlI9k+9Wg3cC2PGB8OBoKLZ8hIJMFGSblYtGQ=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yy4dfJkzQ8T/Z5Ktmi7vQwZ068+EBYdzbqhbC4jXBCs=
+			5eMDrcwS2do28zHijxTVYv5rskZWiiPcAiocMn97paw=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uF9IQqgWZNFa2WH5I4Btv3MjErgJ2Kskn9Qv5b+qBnU=
+			8KPOZUOlI9k+9Wg3cC2PGB8OBoKLZ8hIJMFGSblYtGQ=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XrlxSsCeDSQIYaW66A+hg16RXw8Sr5ozIDqsypBi9Us=
+			BuPpLf0Uu58IMJkIX8X0jaY/b21p3z1aPIoZ/nidIDA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

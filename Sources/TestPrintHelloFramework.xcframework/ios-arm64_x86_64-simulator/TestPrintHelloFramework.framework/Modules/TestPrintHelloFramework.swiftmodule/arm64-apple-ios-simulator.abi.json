@@ -89,20 +89,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestPrintHelloFramework\/TestPrintHelloFramework\/LogPrinter.swift",
-      "kind": "StringLiteral",
-      "offset": 223,
-      "length": 15,
-      "value": "\"Hello Message\""
-    },
-    {
-      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestPrintHelloFramework\/TestPrintHelloFramework\/LogPrinter.swift",
-      "kind": "StringLiteral",
-      "offset": 308,
-      "length": 15,
-      "value": "\"Hello Message\""
-    }
-  ]
+  "ConstValues": []
 }

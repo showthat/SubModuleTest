@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		002F22D69517A6680513B666 /* Pods_SubModuleTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5551CEB0C07265DE5D057263 /* Pods_SubModuleTestApp.framework */; };
+		6AB38FD12B720620000C493B /* TestMainFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB38FCD2B720616000C493B /* TestMainFramework.xcframework */; };
+		6AB38FD22B720620000C493B /* TestMainFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB38FCD2B720616000C493B /* TestMainFramework.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6AB38FD32B720620000C493B /* TestPrintGoodbyeFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB38FCC2B720616000C493B /* TestPrintGoodbyeFramework.xcframework */; };
+		6AB38FD42B720620000C493B /* TestPrintGoodbyeFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB38FCC2B720616000C493B /* TestPrintGoodbyeFramework.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6AB38FD52B720620000C493B /* TestPrintHelloFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB38FCB2B720616000C493B /* TestPrintHelloFramework.xcframework */; };
+		6AB38FD62B720620000C493B /* TestPrintHelloFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB38FCB2B720616000C493B /* TestPrintHelloFramework.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6AB38FD72B7206C3000C493B /* Pods_SubModuleTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5551CEB0C07265DE5D057263 /* Pods_SubModuleTestApp.framework */; };
 		789779AF2A1C9D4300A7EA25 /* SubModuleTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789779AE2A1C9D4300A7EA25 /* SubModuleTestAppApp.swift */; };
 		789779B12A1C9D4300A7EA25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789779B02A1C9D4300A7EA25 /* ContentView.swift */; };
 		789779B32A1C9D4300A7EA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789779B22A1C9D4300A7EA25 /* Assets.xcassets */; };
 		789779B62A1C9D4300A7EA25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789779B52A1C9D4300A7EA25 /* Preview Assets.xcassets */; };
-		78A60C852BA96BDF005BC123 /* TestMainFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A60C802BA96BD7005BC123 /* TestMainFramework.xcframework */; };
-		78A60C862BA96BDF005BC123 /* TestMainFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78A60C802BA96BD7005BC123 /* TestMainFramework.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		78A60C872BA96BDF005BC123 /* TestPrintGoodbyeFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A60C7F2BA96BD7005BC123 /* TestPrintGoodbyeFramework.xcframework */; };
-		78A60C882BA96BDF005BC123 /* TestPrintGoodbyeFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78A60C7F2BA96BD7005BC123 /* TestPrintGoodbyeFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		78A60C892BA96BDF005BC123 /* TestPrintHelloFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78A60C812BA96BD7005BC123 /* TestPrintHelloFramework.xcframework */; };
-		78A60C8A2BA96BDF005BC123 /* TestPrintHelloFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 78A60C812BA96BD7005BC123 /* TestPrintHelloFramework.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		78A60C8B2BA96BDF005BC123 /* Embed Frameworks */ = {
+		6AB38FCA2B71FD3D000C493B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				78A60C882BA96BDF005BC123 /* TestPrintGoodbyeFramework.xcframework in Embed Frameworks */,
-				78A60C862BA96BDF005BC123 /* TestMainFramework.xcframework in Embed Frameworks */,
-				78A60C8A2BA96BDF005BC123 /* TestPrintHelloFramework.xcframework in Embed Frameworks */,
+				6AB38FD42B720620000C493B /* TestPrintGoodbyeFramework.xcframework in Embed Frameworks */,
+				6AB38FD22B720620000C493B /* TestMainFramework.xcframework in Embed Frameworks */,
+				6AB38FD62B720620000C493B /* TestPrintHelloFramework.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -39,14 +39,14 @@
 /* Begin PBXFileReference section */
 		391A07A1AA77B5223B78B5B4 /* Pods-SubModuleTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubModuleTestApp.release.xcconfig"; path = "Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		5551CEB0C07265DE5D057263 /* Pods_SubModuleTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubModuleTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB38FCB2B720616000C493B /* TestPrintHelloFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintHelloFramework.xcframework; path = ../../Sources/TestPrintHelloFramework.xcframework; sourceTree = "<group>"; };
+		6AB38FCC2B720616000C493B /* TestPrintGoodbyeFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintGoodbyeFramework.xcframework; path = ../../Sources/TestPrintGoodbyeFramework.xcframework; sourceTree = "<group>"; };
+		6AB38FCD2B720616000C493B /* TestMainFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestMainFramework.xcframework; path = ../../Sources/TestMainFramework.xcframework; sourceTree = "<group>"; };
 		789779AB2A1C9D4300A7EA25 /* SubModuleTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubModuleTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789779AE2A1C9D4300A7EA25 /* SubModuleTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubModuleTestAppApp.swift; sourceTree = "<group>"; };
 		789779B02A1C9D4300A7EA25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		789779B22A1C9D4300A7EA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		789779B52A1C9D4300A7EA25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		78A60C7F2BA96BD7005BC123 /* TestPrintGoodbyeFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintGoodbyeFramework.xcframework; path = ../../Sources/TestPrintGoodbyeFramework.xcframework; sourceTree = "<group>"; };
-		78A60C802BA96BD7005BC123 /* TestMainFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestMainFramework.xcframework; path = ../../Sources/TestMainFramework.xcframework; sourceTree = "<group>"; };
-		78A60C812BA96BD7005BC123 /* TestPrintHelloFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintHelloFramework.xcframework; path = ../../Sources/TestPrintHelloFramework.xcframework; sourceTree = "<group>"; };
 		81520B7DAA4F72C8D2E29800 /* Pods-SubModuleTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubModuleTestApp.debug.xcconfig"; path = "Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,10 +55,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A60C872BA96BDF005BC123 /* TestPrintGoodbyeFramework.xcframework in Frameworks */,
-				78A60C892BA96BDF005BC123 /* TestPrintHelloFramework.xcframework in Frameworks */,
-				002F22D69517A6680513B666 /* Pods_SubModuleTestApp.framework in Frameworks */,
-				78A60C852BA96BDF005BC123 /* TestMainFramework.xcframework in Frameworks */,
+				6AB38FD32B720620000C493B /* TestPrintGoodbyeFramework.xcframework in Frameworks */,
+				6AB38FD72B7206C3000C493B /* Pods_SubModuleTestApp.framework in Frameworks */,
+				6AB38FD52B720620000C493B /* TestPrintHelloFramework.xcframework in Frameworks */,
+				6AB38FD12B720620000C493B /* TestMainFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +76,9 @@
 		789779A22A1C9D4300A7EA25 = {
 			isa = PBXGroup;
 			children = (
-				78A60C802BA96BD7005BC123 /* TestMainFramework.xcframework */,
-				78A60C7F2BA96BD7005BC123 /* TestPrintGoodbyeFramework.xcframework */,
-				78A60C812BA96BD7005BC123 /* TestPrintHelloFramework.xcframework */,
+				6AB38FCD2B720616000C493B /* TestMainFramework.xcframework */,
+				6AB38FCC2B720616000C493B /* TestPrintGoodbyeFramework.xcframework */,
+				6AB38FCB2B720616000C493B /* TestPrintHelloFramework.xcframework */,
 				789779AD2A1C9D4300A7EA25 /* SubModuleTestApp */,
 				789779AC2A1C9D4300A7EA25 /* Products */,
 				92242FCA5FFBE2C322CBC054 /* Pods */,
@@ -134,7 +134,7 @@
 				789779A82A1C9D4300A7EA25 /* Frameworks */,
 				789779A92A1C9D4300A7EA25 /* Resources */,
 				486649AC7F9C19F20A246CA6 /* [CP] Embed Pods Frameworks */,
-				78A60C8B2BA96BDF005BC123 /* Embed Frameworks */,
+				6AB38FCA2B71FD3D000C493B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -372,7 +372,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SubModuleTestApp/Preview Content\"";
-				DEVELOPMENT_TEAM = J2JFX2G87G;
+				DEVELOPMENT_TEAM = GL4YVZY43K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -380,11 +380,20 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.me.SubModuleTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -402,7 +411,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SubModuleTestApp/Preview Content\"";
-				DEVELOPMENT_TEAM = J2JFX2G87G;
+				DEVELOPMENT_TEAM = GL4YVZY43K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -410,11 +419,20 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.me.SubModuleTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

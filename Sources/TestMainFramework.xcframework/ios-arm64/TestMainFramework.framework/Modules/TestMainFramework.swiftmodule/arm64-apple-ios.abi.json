@@ -289,48 +289,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/TestMainSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 736,
-      "length": 12,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/TestMainSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 747,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/TestMainSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 866,
-      "length": 14,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/TestMainSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 879,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/LogPrinter.swift",
-      "kind": "StringLiteral",
-      "offset": 421,
-      "length": 15,
-      "value": "\"Basic Message\""
-    },
-    {
-      "filePath": "\/Users\/hoon\/Desktop\/Project\/iOS\/SubModulesFramework\/MainFrameworks\/TestMainFramework\/TestMainFramework\/LogPrinter.swift",
-      "kind": "StringLiteral",
-      "offset": 504,
-      "length": 15,
-      "value": "\"Basic Message\""
-    }
-  ]
+  "ConstValues": []
 }
