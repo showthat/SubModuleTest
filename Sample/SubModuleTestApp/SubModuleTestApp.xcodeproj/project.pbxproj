@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A306B762BA83BA900103048 /* Pods_SubModuleTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B49051D9320E88B991112B /* Pods_SubModuleTestApp.framework */; };
 		789779AF2A1C9D4300A7EA25 /* SubModuleTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789779AE2A1C9D4300A7EA25 /* SubModuleTestAppApp.swift */; };
 		789779B12A1C9D4300A7EA25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789779B02A1C9D4300A7EA25 /* ContentView.swift */; };
 		789779B32A1C9D4300A7EA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789779B22A1C9D4300A7EA25 /* Assets.xcassets */; };
 		789779B62A1C9D4300A7EA25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789779B52A1C9D4300A7EA25 /* Preview Assets.xcassets */; };
+		BD1195212D7840EB00B5FA04 /* Pods_SubModuleTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B49051D9320E88B991112B /* Pods_SubModuleTestApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A306B762BA83BA900103048 /* Pods_SubModuleTestApp.framework in Frameworks */,
+				BD1195212D7840EB00B5FA04 /* Pods_SubModuleTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,8 +112,7 @@
 				789779A72A1C9D4300A7EA25 /* Sources */,
 				789779A82A1C9D4300A7EA25 /* Frameworks */,
 				789779A92A1C9D4300A7EA25 /* Resources */,
-				034984BD112489428FB972E2 /* [CP] Embed Pods Frameworks */,
-				A8D2215FAA83C7A6A2594698 /* [CP] Copy Pods Resources */,
+				90D0FD8E0272F184023000DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,23 +169,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		034984BD112489428FB972E2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7F1AB9F983D3EAE2DA6C3932 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,21 +191,21 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A8D2215FAA83C7A6A2594698 /* [CP] Copy Pods Resources */ = {
+		90D0FD8E0272F184023000DA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

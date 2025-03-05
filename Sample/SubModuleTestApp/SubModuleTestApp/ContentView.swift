@@ -8,8 +8,7 @@
 import SwiftUI
 import TestMainFramework
 
-
-import MobWithADSDKFramework
+import Alamofire
 
 
 struct ContentView: View {
