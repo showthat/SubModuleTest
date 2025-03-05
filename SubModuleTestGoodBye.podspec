@@ -23,5 +23,6 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = "Sources/TestPrintGoodbyeFramework.xcframework"
       
   s.dependency 'Alamofire', '~> 5.9.0'
+  s.dependency 'SubModuleTestCore'
 
 end
