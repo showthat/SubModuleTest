@@ -24,5 +24,14 @@ Pod::Spec.new do |s|
       
   s.dependency 'Alamofire', '~> 5.9.0'
   s.dependency 'SubModuleTestCore'
+  
+  
+  # Alamofire가 링크될 수 있도록 시스템 프레임워크 추가
+  s.frameworks = 'Foundation', 'UIKit', 'CFNetwork', 'Security'
+
+  # 링크 강제 옵션 추가
+  s.pod_target_xcconfig = {
+    'OTHER_LDFLAGS' => '-ObjC'
+  }
 
 end
