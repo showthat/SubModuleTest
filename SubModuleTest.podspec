@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SubModuleTest'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'My SubModule Test projects...'
 
   s.description      = <<-DESC
@@ -34,6 +34,7 @@ Pod::Spec.new do |s|
       sgb.vendored_frameworks = "Sources/TestPrintGoodbyeFramework.xcframework"
       
       sgb.dependency 'Alamofire'
+      sgb.xcconfig = { 'OTHER_LDFLAGS' => '-framework Alamofire' }                  # 서브 스펙 의존성 추가..
   end
 
 

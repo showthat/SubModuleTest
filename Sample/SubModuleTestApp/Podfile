@@ -5,13 +5,16 @@ target 'SubModuleTestApp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'Alamofire'
+#  pod 'Alamofire'
 
 #  pod 'SubModuleTest', '~> 1.0.3'
 #  pod 'SubModuleTest/Basic'
 
-#  pod 'SubModuleTest/Core'
-#  pod 'SubModuleTest/Hello'
-#  pod 'SubModuleTest/GoodBye'
+  pod 'SubModuleTest/Core'
+  pod 'SubModuleTest/Hello'
+  pod 'SubModuleTest/GoodBye'
   
+  pod 'Google-Mobile-Ads-SDK', '~> 10.0.0'
+  
+  pod 'MobWithAD'
 end

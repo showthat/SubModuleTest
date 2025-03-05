@@ -4,25 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/Alamofire.framework/Alamofire</key>
-		<data>
-		+h5tV8z5NZ6PSE9SNV2RLqsFdp4=
-		</data>
-		<key>Frameworks/Alamofire.framework/Info.plist</key>
-		<data>
-		3+ptirV0vEC14aSsYA6i3Pr4zL8=
-		</data>
-		<key>Frameworks/Alamofire.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		ovFJMFOLMjzh8DLJKmXncj8JIgU=
-		</data>
-		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
-		<data>
-		X2kwJPzQY2HyLHOBi/VAIMmQDbA=
-		</data>
 		<key>Headers/TestPrintGoodbyeFramework-Swift.h</key>
 		<data>
-		FwASGudYwX8a43mSp10BEZnqbqU=
+		0TRQiEv036nXcwn/GLW5xx8F8jI=
 		</data>
 		<key>Headers/TestPrintGoodbyeFramework.h</key>
 		<data>
@@ -30,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		sF5sdZbH+xCt2i+bO8efb6B1CeI=
+		uWOAO98rr0BkhX40OvwpNzqTwZE=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		x4hOy1HmER1DAXSJLw2SLnGb2eQ=
+		KMard5/vPeHVszTzE2wTvHeh6vU=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Ax4pHtCOWX7Woo57csZlBFU/OlU=
+		KSMvCtww7Bt61NApQ3st1RKysM8=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/2KLKavlVrwCVUOX0+dl/d6MoQA=
+		UTtPWR+JFF71L6AazGl+HPG9Ej8=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Ax4pHtCOWX7Woo57csZlBFU/OlU=
+		KSMvCtww7Bt61NApQ3st1RKysM8=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JWayBZJQdpyjJ4HTetXbitTYyaA=
+		PUlayhDh1/YTOsZyRr6GNpoi4B4=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		x4hOy1HmER1DAXSJLw2SLnGb2eQ=
+		KMard5/vPeHVszTzE2wTvHeh6vU=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2su5A1oQMR7DOAI5gP0Fxr6PXZY=
+		F2sUHzv0TJf6oI3AJi4SqM64sa0=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Eu+cSSpKO6HbZnFzOWSkTYorEbI=
+		w3PQl33JrmQbOOH/vmO1KofE8l0=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2su5A1oQMR7DOAI5gP0Fxr6PXZY=
+		F2sUHzv0TJf6oI3AJi4SqM64sa0=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YViLStVcaW7RsXa9RcnLbjqeyaA=
+		Hj6fG7HqY2ihLwiPaTEVdiyUkns=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,39 +63,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Alamofire.framework/Alamofire</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pqd2OPsnAi/WGWIEauaha4d44E2QLfU+Tg8Y2jEnlVg=
-			</data>
-		</dict>
-		<key>Frameworks/Alamofire.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IO/dYCNiLo22e3Kav85SUxcHrKOlflAfD9wYjIojVI0=
-			</data>
-		</dict>
-		<key>Frameworks/Alamofire.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
-			</data>
-		</dict>
-		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lQcsDzQqqFs0v9Sdi2Dn4tBPkfQ+sTIWs0+woDowKOs=
-			</data>
-		</dict>
 		<key>Headers/TestPrintGoodbyeFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bc6OzM8PZzzNbtmGZYTG4hPd/G0eKVOqwqLw0fU5Tc8=
+			+N5QVJt3Hnlfdy/rYmpa4K18bRf0IPzYQ0datUEqmMc=
 			</data>
 		</dict>
 		<key>Headers/TestPrintGoodbyeFramework.h</key>
@@ -125,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tBO8S8zAeRZN1CmORZY1xuAOEteLxO/q/PK//HplBCU=
+			aA2zeWex+X7P4bOShdl9av7tGDL951dF+rgy0gK0NiQ=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5XDtzkhBLjQtKreM/1W7llqNfyDyu5DUErSe/lOimrI=
+			ut9g0TIzt6Oisd01RHW+hkmLKkJ5O3VsC0vR/5CNIS0=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zrqxlv83MD5n71XhSUD9lxsF9aLl/T9eY920WtUcocE=
+			gDlAzzMGU+ImgHB/zFKLkDPaxxHMCZMrywJ5IWvPEz0=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5XDtzkhBLjQtKreM/1W7llqNfyDyu5DUErSe/lOimrI=
+			ut9g0TIzt6Oisd01RHW+hkmLKkJ5O3VsC0vR/5CNIS0=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o76F6bifruGCJkeRxfJdnJD4MKY94/6+fQmZFZvVL8Y=
+			6+vkI2uFJLMQ72DoPh0t2AAyrseEtEWtrg79ZbaBIdo=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tBO8S8zAeRZN1CmORZY1xuAOEteLxO/q/PK//HplBCU=
+			aA2zeWex+X7P4bOShdl9av7tGDL951dF+rgy0gK0NiQ=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C1Ob3paYvqYd/lViLan0tfGfi+jkHT8/Y34scOA+6HU=
+			Q6OHstzs/i+NekrAwul7fov1bIIDTkvrohpCCxrE+YQ=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gVz6xPn6QISPdV/bkIVHGkrWSN9wz2C2KVGQZl92Whc=
+			dvRgx0D03Dg6nvvEz8C9Izoxcw/O9sftUm0Z9aR9EeY=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C1Ob3paYvqYd/lViLan0tfGfi+jkHT8/Y34scOA+6HU=
+			Q6OHstzs/i+NekrAwul7fov1bIIDTkvrohpCCxrE+YQ=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HIrdyvW84sGrWAsW0SDo/wF8HCTKVMm1qGYcvwfp3u4=
+			JF4GBOQrBJtG6YVr9U6z5kslgz5v82Ll4YCV82u0I+g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

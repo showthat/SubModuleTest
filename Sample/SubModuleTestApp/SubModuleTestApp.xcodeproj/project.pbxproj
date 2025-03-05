@@ -7,34 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A306B712BA83B8A00103048 /* TestMainFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A306B652BA8375800103048 /* TestMainFramework.xcframework */; };
-		6A306B722BA83B8A00103048 /* TestMainFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A306B652BA8375800103048 /* TestMainFramework.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6A306B732BA83B8A00103048 /* TestPrintHelloFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A306B672BA8375900103048 /* TestPrintHelloFramework.xcframework */; };
-		6A306B742BA83B8A00103048 /* TestPrintHelloFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A306B672BA8375900103048 /* TestPrintHelloFramework.xcframework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		6A306B762BA83BA900103048 /* Pods_SubModuleTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B49051D9320E88B991112B /* Pods_SubModuleTestApp.framework */; };
-		6A306B7A2BA848E300103048 /* TestPrintGoodbyeFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A306B662BA8375900103048 /* TestPrintGoodbyeFramework.xcframework */; };
-		6A306B7B2BA848E300103048 /* TestPrintGoodbyeFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6A306B662BA8375900103048 /* TestPrintGoodbyeFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		789779AF2A1C9D4300A7EA25 /* SubModuleTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789779AE2A1C9D4300A7EA25 /* SubModuleTestAppApp.swift */; };
 		789779B12A1C9D4300A7EA25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789779B02A1C9D4300A7EA25 /* ContentView.swift */; };
 		789779B32A1C9D4300A7EA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789779B22A1C9D4300A7EA25 /* Assets.xcassets */; };
 		789779B62A1C9D4300A7EA25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789779B52A1C9D4300A7EA25 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		6A306B752BA83B8A00103048 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				6A306B722BA83B8A00103048 /* TestMainFramework.xcframework in Embed Frameworks */,
-				6A306B742BA83B8A00103048 /* TestPrintHelloFramework.xcframework in Embed Frameworks */,
-				6A306B7B2BA848E300103048 /* TestPrintGoodbyeFramework.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		391A07A1AA77B5223B78B5B4 /* Pods-SubModuleTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubModuleTestApp.release.xcconfig"; path = "Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -42,6 +20,7 @@
 		6A306B652BA8375800103048 /* TestMainFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestMainFramework.xcframework; path = ../../Sources/TestMainFramework.xcframework; sourceTree = "<group>"; };
 		6A306B662BA8375900103048 /* TestPrintGoodbyeFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintGoodbyeFramework.xcframework; path = ../../Sources/TestPrintGoodbyeFramework.xcframework; sourceTree = "<group>"; };
 		6A306B672BA8375900103048 /* TestPrintHelloFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintHelloFramework.xcframework; path = ../../Sources/TestPrintHelloFramework.xcframework; sourceTree = "<group>"; };
+		6ACFDF732BBE8E5D00B27256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		789779AB2A1C9D4300A7EA25 /* SubModuleTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubModuleTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789779AE2A1C9D4300A7EA25 /* SubModuleTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubModuleTestAppApp.swift; sourceTree = "<group>"; };
 		789779B02A1C9D4300A7EA25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,9 +35,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A306B7A2BA848E300103048 /* TestPrintGoodbyeFramework.xcframework in Frameworks */,
-				6A306B712BA83B8A00103048 /* TestMainFramework.xcframework in Frameworks */,
-				6A306B732BA83B8A00103048 /* TestPrintHelloFramework.xcframework in Frameworks */,
 				6A306B762BA83BA900103048 /* Pods_SubModuleTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,6 +75,7 @@
 		789779AD2A1C9D4300A7EA25 /* SubModuleTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				6ACFDF732BBE8E5D00B27256 /* Info.plist */,
 				789779AE2A1C9D4300A7EA25 /* SubModuleTestAppApp.swift */,
 				789779B02A1C9D4300A7EA25 /* ContentView.swift */,
 				789779B22A1C9D4300A7EA25 /* Assets.xcassets */,
@@ -135,8 +112,8 @@
 				789779A72A1C9D4300A7EA25 /* Sources */,
 				789779A82A1C9D4300A7EA25 /* Frameworks */,
 				789779A92A1C9D4300A7EA25 /* Resources */,
-				6A306B752BA83B8A00103048 /* Embed Frameworks */,
 				034984BD112489428FB972E2 /* [CP] Embed Pods Frameworks */,
+				A8D2215FAA83C7A6A2594698 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +207,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D2215FAA83C7A6A2594698 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -373,6 +367,8 @@
 				DEVELOPMENT_TEAM = GL4YVZY43K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubModuleTestApp/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "맞춤형 광고 제공을 위해 사용자의 데이터가 사용됩니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -404,6 +400,8 @@
 				DEVELOPMENT_TEAM = GL4YVZY43K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SubModuleTestApp/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "맞춤형 광고 제공을 위해 사용자의 데이터가 사용됩니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

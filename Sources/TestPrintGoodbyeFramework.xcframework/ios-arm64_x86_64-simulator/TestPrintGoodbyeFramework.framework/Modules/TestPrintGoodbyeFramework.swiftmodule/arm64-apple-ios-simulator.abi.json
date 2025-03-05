@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "TestPrintGoodbyeFramework",
+    "printedName": "TestPrintGoodbyeFramework",
     "children": [
       {
         "kind": "Import",
@@ -107,6 +107,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "LogGoodBye",
             "printedName": "LogGoodBye",
             "usr": "s:17TestMainFramework10LogGoodByeP",
@@ -117,27 +131,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/enliple\/Desktop\/TEST\/SubModules\/MainFrameworks\/TestPrintGoodbyeFramework\/TestPrintGoodbyeFramework\/LogPrinter.swift",
-      "kind": "StringLiteral",
-      "offset": 257,
-      "length": 17,
-      "value": "\"Goodbye Message\""
-    },
-    {
-      "filePath": "\/Users\/enliple\/Desktop\/TEST\/SubModules\/MainFrameworks\/TestPrintGoodbyeFramework\/TestPrintGoodbyeFramework\/LogPrinter.swift",
-      "kind": "StringLiteral",
-      "offset": 351,
-      "length": 17,
-      "value": "\"Goodbye Message\""
-    },
-    {
-      "filePath": "\/Users\/enliple\/Desktop\/TEST\/SubModules\/MainFrameworks\/TestPrintGoodbyeFramework\/TestPrintGoodbyeFramework\/LogPrinter.swift",
-      "kind": "StringLiteral",
-      "offset": 448,
-      "length": 58,
-      "value": "\"https:\/\/dhnasvar.synology.me\/php\/lottoNumber.php?drwNo=1\""
-    }
-  ]
+  "ConstValues": []
 }

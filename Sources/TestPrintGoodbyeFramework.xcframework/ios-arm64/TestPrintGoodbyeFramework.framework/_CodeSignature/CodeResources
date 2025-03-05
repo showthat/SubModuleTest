@@ -4,25 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/Alamofire.framework/Alamofire</key>
-		<data>
-		uSMgpmDgWZIfAYO2C7AELQAMEP8=
-		</data>
-		<key>Frameworks/Alamofire.framework/Info.plist</key>
-		<data>
-		7Kla605Ldo+ZssGZ5i4R7f0N1ek=
-		</data>
-		<key>Frameworks/Alamofire.framework/PrivacyInfo.xcprivacy</key>
-		<data>
-		ovFJMFOLMjzh8DLJKmXncj8JIgU=
-		</data>
-		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
-		<data>
-		4ci4NG7Imh6KE84AdNwVZE0lbps=
-		</data>
 		<key>Headers/TestPrintGoodbyeFramework-Swift.h</key>
 		<data>
-		iApyVz+ZQC2TSY/CWUyw7TF3tQU=
+		5VUviSfjL9W+N1sUzN9ThHdc05U=
 		</data>
 		<key>Headers/TestPrintGoodbyeFramework.h</key>
 		<data>
@@ -30,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		437BcdH50s/bh7ixFYFTRE2d2r4=
+		SflEiO0titaTq/njHTNdAeOuoYc=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		x4hOy1HmER1DAXSJLw2SLnGb2eQ=
+		KMard5/vPeHVszTzE2wTvHeh6vU=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		A0dSv1UW2JnZztCmc7166pUdo3k=
+		yc4BcPtA5Jcy6VfJjVQ7OqPEiBA=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		CBGLzFyUd95F3848p/fHcDCKvqI=
+		HvHJ/WbVzQM2IVX1ob1Z9fxS+GQ=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		A0dSv1UW2JnZztCmc7166pUdo3k=
+		yc4BcPtA5Jcy6VfJjVQ7OqPEiBA=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VJtHUtRGoxJi+/K6TEdJnrqtt14=
+		A9VksXYPQjAtaX9Qm7Q1rhw27eQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,39 +43,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Alamofire.framework/Alamofire</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2PPHEjaB5Qdj0NF0wIS8LX8ouPtd7gZmkduMY8LExXA=
-			</data>
-		</dict>
-		<key>Frameworks/Alamofire.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QeGQTL/b13Vu8iPtb49LRrxl6HUEI2NEq8laH8LFSS8=
-			</data>
-		</dict>
-		<key>Frameworks/Alamofire.framework/PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
-			</data>
-		</dict>
-		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			J5V8jcO0KPctIvwMgoF51DD5QLzTNmNg1af6JyUL5cI=
-			</data>
-		</dict>
 		<key>Headers/TestPrintGoodbyeFramework-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S4awdb1Ho8zLCu7KZCJf/k5Dix4Ue3Y9Dv19gWMjles=
+			snwwEhaOOizrreTe0idMY38+YnC14ou74y0HdTpbUbc=
 			</data>
 		</dict>
 		<key>Headers/TestPrintGoodbyeFramework.h</key>
@@ -105,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tBO8S8zAeRZN1CmORZY1xuAOEteLxO/q/PK//HplBCU=
+			aA2zeWex+X7P4bOShdl9av7tGDL951dF+rgy0gK0NiQ=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pkrQb4hN89thD0Y6nGpLt/TLYJEBaNa90zSNOFcVuqw=
+			Pcs1l07Z98qfYpfSo7+BLuMhRbty8RW3ZQSiAtv3W+8=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2m/bCoL0a7ckjvK/8UWVmmi1SlfRhkmC89D5ZR0PiU8=
+			wj+tygt6tsOsw7RLrGHYlQt9nLT5pzH60k/98lK9cgE=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pkrQb4hN89thD0Y6nGpLt/TLYJEBaNa90zSNOFcVuqw=
+			Pcs1l07Z98qfYpfSo7+BLuMhRbty8RW3ZQSiAtv3W+8=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bfREc5Paj0RJwtQmuLeadT4rX4nvcEyMBgnury26D+w=
+			VR2A13gLD/BXzefS6+eqGTLxIjjGfcgsNkYETqOKulg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
