@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   # 링크 강제 옵션 추가
   s.pod_target_xcconfig = {
-    'OTHER_LDFLAGS' => '-ObjC'
+    'OTHER_LDFLAGS' => '-ObjC', '-all_load'
   }
 
 end
