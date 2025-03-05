@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   
   
   # Alamofire가 링크될 수 있도록 시스템 프레임워크 추가
-  s.frameworks = 'Foundation', 'UIKit', 'CFNetwork', 'Security'
+  s.frameworks = 'Foundation', 'UIKit', 'CFNetwork', 'Security', 'Alamofire'
 
   # 링크 강제 옵션 추가
   s.pod_target_xcconfig = {
