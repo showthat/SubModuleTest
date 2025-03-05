@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SubModuleTest'
-  s.version          = '1.0.10'
+  s.version          = '1.0.11'
   s.summary          = 'My SubModule Test projects...'
 
   s.description      = <<-DESC
@@ -31,6 +31,7 @@ Pod::Spec.new do |s|
 
 
   s.subspec 'GoodBye' do |sgb|
+      sgb.frameworks = 'Foundation', 'UIKit'
       sgb.vendored_frameworks = "Sources/TestPrintGoodbyeFramework.xcframework"
       
       sgb.dependency 'Alamofire', '5.9.0'
