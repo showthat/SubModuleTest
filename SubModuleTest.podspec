@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/showthat/SubModuleTest'
   s.license          = { :type => 'MIT', :text => 'Copyright 2023 by Lee' }
-  s.authors          = { 'showthat' }
+    s.authors          = ['showthat']
 
   s.source           = {
     :git => 'https://github.com/showthat/SubModuleTest.git',
