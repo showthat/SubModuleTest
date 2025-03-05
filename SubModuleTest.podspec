@@ -19,9 +19,9 @@ Pod::Spec.new do |s|
   s.platform = :ios, "13.0"
 
   
-  s.dependency = 'SubModuleTestCore'
-  s.dependency = 'SubModuleTestGoodBye'
-  s.dependency = 'SubModuleTestHello'
+  s.dependency = 'SubModuleTestCore', :git => 'https://github.com/showthat/SubModuleTest.git'
+  s.dependency = 'SubModuleTestGoodBye', :git => 'https://github.com/showthat/SubModuleTest.git'
+  s.dependency = 'SubModuleTestHello', :git => 'https://github.com/showthat/SubModuleTest.git'
 
 
 end
