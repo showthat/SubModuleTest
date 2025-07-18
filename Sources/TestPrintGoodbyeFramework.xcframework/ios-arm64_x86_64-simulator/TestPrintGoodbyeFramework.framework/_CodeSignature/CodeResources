@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		KMard5/vPeHVszTzE2wTvHeh6vU=
+		Sqnh8X/oaHnhIzGuOFQ1lO3NJTo=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		KSMvCtww7Bt61NApQ3st1RKysM8=
+		u/szV4NMNftdtVMPYAgeBj++NBM=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KSMvCtww7Bt61NApQ3st1RKysM8=
+		u/szV4NMNftdtVMPYAgeBj++NBM=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PUlayhDh1/YTOsZyRr6GNpoi4B4=
+		H8meoi5Shz8UbkaM6cTJY2P6Npo=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		KMard5/vPeHVszTzE2wTvHeh6vU=
+		Sqnh8X/oaHnhIzGuOFQ1lO3NJTo=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		F2sUHzv0TJf6oI3AJi4SqM64sa0=
+		H2SilpGtq6HfJpasCZWZBeLV8KY=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		F2sUHzv0TJf6oI3AJi4SqM64sa0=
+		H2SilpGtq6HfJpasCZWZBeLV8KY=
 		</data>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Hj6fG7HqY2ihLwiPaTEVdiyUkns=
+		lik/FaprwZ4uOsJm0FBBx0pSIS4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aA2zeWex+X7P4bOShdl9av7tGDL951dF+rgy0gK0NiQ=
+			qkFUl3EHJODplbvPR2RVlQU6OqCdrnpDe7IBFl/4Nng=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ut9g0TIzt6Oisd01RHW+hkmLKkJ5O3VsC0vR/5CNIS0=
+			Oju9kaR5k75dHDLdMYLCJi43gdamMUuQAjUqHgyL26A=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ut9g0TIzt6Oisd01RHW+hkmLKkJ5O3VsC0vR/5CNIS0=
+			Oju9kaR5k75dHDLdMYLCJi43gdamMUuQAjUqHgyL26A=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6+vkI2uFJLMQ72DoPh0t2AAyrseEtEWtrg79ZbaBIdo=
+			lp3I1GJpouLNvpg08Btv4E8aH7mlfVi4BzhSCrZLKRE=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aA2zeWex+X7P4bOShdl9av7tGDL951dF+rgy0gK0NiQ=
+			qkFUl3EHJODplbvPR2RVlQU6OqCdrnpDe7IBFl/4Nng=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q6OHstzs/i+NekrAwul7fov1bIIDTkvrohpCCxrE+YQ=
+			Kef1+EbOG9lrlTh28bPV2vEI2t0QZ3Ut1JyICU7PtO4=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q6OHstzs/i+NekrAwul7fov1bIIDTkvrohpCCxrE+YQ=
+			Kef1+EbOG9lrlTh28bPV2vEI2t0QZ3Ut1JyICU7PtO4=
 			</data>
 		</dict>
 		<key>Modules/TestPrintGoodbyeFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JF4GBOQrBJtG6YVr9U6z5kslgz5v82Ll4YCV82u0I+g=
+			XbN4Ut0QrHPhebnB6s3gfOGxry5MQtFdKJBxLUf/35Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

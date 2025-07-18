@@ -11,23 +11,45 @@
 		789779B12A1C9D4300A7EA25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789779B02A1C9D4300A7EA25 /* ContentView.swift */; };
 		789779B32A1C9D4300A7EA25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789779B22A1C9D4300A7EA25 /* Assets.xcassets */; };
 		789779B62A1C9D4300A7EA25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789779B52A1C9D4300A7EA25 /* Preview Assets.xcassets */; };
-		BD1195212D7840EB00B5FA04 /* Pods_SubModuleTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B49051D9320E88B991112B /* Pods_SubModuleTestApp.framework */; };
+		BD1195242D7850D500B5FA04 /* Pods_SubModuleTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09756F1A2429B902178BF56 /* Pods_SubModuleTestApp.framework */; };
+		BD875DDB2E289A2200F82A5B /* TestPrintHelloFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD875DD72E289A1900F82A5B /* TestPrintHelloFramework.xcframework */; };
+		BD875DDC2E289A2200F82A5B /* TestPrintHelloFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD875DD72E289A1900F82A5B /* TestPrintHelloFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD875DDD2E289A2300F82A5B /* TestPrintGoodbyeFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD875DD62E289A1900F82A5B /* TestPrintGoodbyeFramework.xcframework */; };
+		BD875DDE2E289A2300F82A5B /* TestPrintGoodbyeFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD875DD62E289A1900F82A5B /* TestPrintGoodbyeFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BD875DDF2E289A2400F82A5B /* TestMainFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD875DD52E289A1900F82A5B /* TestMainFramework.xcframework */; };
+		BD875DE02E289A2400F82A5B /* TestMainFramework.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD875DD52E289A1900F82A5B /* TestMainFramework.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BD9216ED2E26097E00DBEA76 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BD875DE02E289A2400F82A5B /* TestMainFramework.xcframework in Embed Frameworks */,
+				BD875DDE2E289A2300F82A5B /* TestPrintGoodbyeFramework.xcframework in Embed Frameworks */,
+				BD875DDC2E289A2200F82A5B /* TestPrintHelloFramework.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		391A07A1AA77B5223B78B5B4 /* Pods-SubModuleTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubModuleTestApp.release.xcconfig"; path = "Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		6A0B28D32BA9231C0011BD52 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		6A306B652BA8375800103048 /* TestMainFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestMainFramework.xcframework; path = ../../Sources/TestMainFramework.xcframework; sourceTree = "<group>"; };
-		6A306B662BA8375900103048 /* TestPrintGoodbyeFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintGoodbyeFramework.xcframework; path = ../../Sources/TestPrintGoodbyeFramework.xcframework; sourceTree = "<group>"; };
-		6A306B672BA8375900103048 /* TestPrintHelloFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintHelloFramework.xcframework; path = ../../Sources/TestPrintHelloFramework.xcframework; sourceTree = "<group>"; };
 		6ACFDF732BBE8E5D00B27256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		789779AB2A1C9D4300A7EA25 /* SubModuleTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubModuleTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789779AE2A1C9D4300A7EA25 /* SubModuleTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubModuleTestAppApp.swift; sourceTree = "<group>"; };
 		789779B02A1C9D4300A7EA25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		789779B22A1C9D4300A7EA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		789779B52A1C9D4300A7EA25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		81520B7DAA4F72C8D2E29800 /* Pods-SubModuleTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubModuleTestApp.debug.xcconfig"; path = "Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp.debug.xcconfig"; sourceTree = "<group>"; };
-		E0B49051D9320E88B991112B /* Pods_SubModuleTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubModuleTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DEF8499BB485FA6FA96EAB /* Pods-SubModuleTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubModuleTestApp.debug.xcconfig"; path = "Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BD875DD52E289A1900F82A5B /* TestMainFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestMainFramework.xcframework; path = /Users/enliplemacbook/Desktop/TEST/SubModuleTest/Sources/TestMainFramework.xcframework; sourceTree = "<absolute>"; };
+		BD875DD62E289A1900F82A5B /* TestPrintGoodbyeFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintGoodbyeFramework.xcframework; path = /Users/enliplemacbook/Desktop/TEST/SubModuleTest/Sources/TestPrintGoodbyeFramework.xcframework; sourceTree = "<absolute>"; };
+		BD875DD72E289A1900F82A5B /* TestPrintHelloFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintHelloFramework.xcframework; path = /Users/enliplemacbook/Desktop/TEST/SubModuleTest/Sources/TestPrintHelloFramework.xcframework; sourceTree = "<absolute>"; };
+		DEE22858C76477C51A937104 /* Pods-SubModuleTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubModuleTestApp.release.xcconfig"; path = "Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		F09756F1A2429B902178BF56 /* Pods_SubModuleTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubModuleTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +57,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD1195212D7840EB00B5FA04 /* Pods_SubModuleTestApp.framework in Frameworks */,
+				BD875DDD2E289A2300F82A5B /* TestPrintGoodbyeFramework.xcframework in Frameworks */,
+				BD875DDB2E289A2200F82A5B /* TestPrintHelloFramework.xcframework in Frameworks */,
+				BD1195242D7850D500B5FA04 /* Pods_SubModuleTestApp.framework in Frameworks */,
+				BD875DDF2E289A2400F82A5B /* TestMainFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				6A0B28D32BA9231C0011BD52 /* CFNetwork.framework */,
-				E0B49051D9320E88B991112B /* Pods_SubModuleTestApp.framework */,
+				F09756F1A2429B902178BF56 /* Pods_SubModuleTestApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -54,9 +79,9 @@
 		789779A22A1C9D4300A7EA25 = {
 			isa = PBXGroup;
 			children = (
-				6A306B652BA8375800103048 /* TestMainFramework.xcframework */,
-				6A306B662BA8375900103048 /* TestPrintGoodbyeFramework.xcframework */,
-				6A306B672BA8375900103048 /* TestPrintHelloFramework.xcframework */,
+				BD875DD52E289A1900F82A5B /* TestMainFramework.xcframework */,
+				BD875DD62E289A1900F82A5B /* TestPrintGoodbyeFramework.xcframework */,
+				BD875DD72E289A1900F82A5B /* TestPrintHelloFramework.xcframework */,
 				789779AD2A1C9D4300A7EA25 /* SubModuleTestApp */,
 				789779AC2A1C9D4300A7EA25 /* Products */,
 				92242FCA5FFBE2C322CBC054 /* Pods */,
@@ -95,8 +120,8 @@
 		92242FCA5FFBE2C322CBC054 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				81520B7DAA4F72C8D2E29800 /* Pods-SubModuleTestApp.debug.xcconfig */,
-				391A07A1AA77B5223B78B5B4 /* Pods-SubModuleTestApp.release.xcconfig */,
+				A2DEF8499BB485FA6FA96EAB /* Pods-SubModuleTestApp.debug.xcconfig */,
+				DEE22858C76477C51A937104 /* Pods-SubModuleTestApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -108,11 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 789779B92A1C9D4300A7EA25 /* Build configuration list for PBXNativeTarget "SubModuleTestApp" */;
 			buildPhases = (
-				7F1AB9F983D3EAE2DA6C3932 /* [CP] Check Pods Manifest.lock */,
+				E1662357026DECBE44D14CE3 /* [CP] Check Pods Manifest.lock */,
 				789779A72A1C9D4300A7EA25 /* Sources */,
 				789779A82A1C9D4300A7EA25 /* Frameworks */,
 				789779A92A1C9D4300A7EA25 /* Resources */,
-				90D0FD8E0272F184023000DA /* [CP] Embed Pods Frameworks */,
+				BD9216ED2E26097E00DBEA76 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,7 +194,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7F1AB9F983D3EAE2DA6C3932 /* [CP] Check Pods Manifest.lock */ = {
+		E1662357026DECBE44D14CE3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -189,23 +214,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		90D0FD8E0272F184023000DA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -339,7 +347,7 @@
 		};
 		789779BA2A1C9D4300A7EA25 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81520B7DAA4F72C8D2E29800 /* Pods-SubModuleTestApp.debug.xcconfig */;
+			baseConfigurationReference = A2DEF8499BB485FA6FA96EAB /* Pods-SubModuleTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -362,6 +370,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.me.SubModuleTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -372,7 +385,7 @@
 		};
 		789779BB2A1C9D4300A7EA25 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 391A07A1AA77B5223B78B5B4 /* Pods-SubModuleTestApp.release.xcconfig */;
+			baseConfigurationReference = DEE22858C76477C51A937104 /* Pods-SubModuleTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -395,6 +408,11 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-Objc",
+					"-all_load",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.me.SubModuleTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -23,8 +23,8 @@
       },
       {
         "kind": "Import",
-        "name": "Alamofire",
-        "printedName": "Alamofire",
+        "name": "WrapperStaticLib",
+        "printedName": "WrapperStaticLib",
         "declKind": "Import",
         "moduleName": "TestPrintGoodbyeFramework"
       },

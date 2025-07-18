@@ -8,7 +8,7 @@
 import SwiftUI
 import TestMainFramework
 
-import Alamofire
+import TestPrintHelloFramework
 
 
 struct ContentView: View {
@@ -30,6 +30,20 @@ struct ContentView: View {
         .padding()
         .onAppear {
             TestMainSDK.shared.printLog()
+            
+//            AF.request("url", method: .get).response { response in
+//                switch response.result {
+//                case .success(let value):
+//                    if let value = value, let value = String(data: value, encoding: .utf8) {
+//                        print(value)
+//                    }
+//                    else {
+//                        print("Success get response, but cannot convert to string, value is \(String(describing: value))")
+//                    }
+//                case .failure(let error):
+//                    print(error.localizedDescription)
+//                }
+//            }
         }
         
     }
