@@ -6,8 +6,8 @@
     "children": [
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "TestMainFramework",
+        "printedName": "TestMainFramework",
         "declKind": "Import",
         "moduleName": "TestPrintHelloFramework",
         "declAttributes": [
@@ -15,42 +15,47 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "TestMainFramework",
-        "printedName": "TestMainFramework",
-        "declKind": "Import",
-        "moduleName": "TestPrintHelloFramework"
-      },
-      {
         "kind": "TypeDecl",
-        "name": "LogPrinter",
-        "printedName": "LogPrinter",
+        "name": "HelloLoggerExtension",
+        "printedName": "HelloLoggerExtension",
         "children": [
           {
-            "kind": "Function",
-            "name": "printHelloLog",
-            "printedName": "printHelloLog()",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:apiKey:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "HelloLoggerExtension",
+                "printedName": "TestPrintHelloFramework.HelloLoggerExtension",
+                "usr": "s:23TestPrintHelloFramework0C15LoggerExtensionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:17TestMainFramework10LogPrinterC0a10PrintHelloC0E05printgD0yyF",
-            "mangledName": "$s17TestMainFramework10LogPrinterC0a10PrintHelloC0E05printgD0yyF",
+            "declKind": "Constructor",
+            "usr": "s:23TestPrintHelloFramework0C15LoggerExtensionC4name6apiKeyACSS_SStcfc",
+            "mangledName": "$s23TestPrintHelloFramework0C15LoggerExtensionC4name6apiKeyACSS_SStcfc",
             "moduleName": "TestPrintHelloFramework",
             "declAttributes": [
               "AccessControl"
             ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
+            "init_kind": "Designated"
           },
           {
             "kind": "Function",
-            "name": "getHelloLog",
-            "printedName": "getHelloLog()",
+            "name": "getName",
+            "printedName": "getName()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -60,22 +65,142 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:17TestMainFramework10LogPrinterC0a10PrintHelloC0E03getgD0SSyF",
-            "mangledName": "$s17TestMainFramework10LogPrinterC0a10PrintHelloC0E03getgD0SSyF",
+            "usr": "s:23TestPrintHelloFramework0C15LoggerExtensionC7getNameSSyF",
+            "mangledName": "$s23TestPrintHelloFramework0C15LoggerExtensionC7getNameSSyF",
             "moduleName": "TestPrintHelloFramework",
             "declAttributes": [
               "AccessControl"
             ],
-            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printLog",
+            "printedName": "printLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23TestPrintHelloFramework0C15LoggerExtensionC8printLogyyF",
+            "mangledName": "$s23TestPrintHelloFramework0C15LoggerExtensionC8printLogyyF",
+            "moduleName": "TestPrintHelloFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printAlamofireLog",
+            "printedName": "printAlamofireLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23TestPrintHelloFramework0C15LoggerExtensionC17printAlamofireLogyyF",
+            "mangledName": "$s23TestPrintHelloFramework0C15LoggerExtensionC17printAlamofireLogyyF",
+            "moduleName": "TestPrintHelloFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLog",
+            "printedName": "getLog()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23TestPrintHelloFramework0C15LoggerExtensionC6getLogSSyF",
+            "mangledName": "$s23TestPrintHelloFramework0C15LoggerExtensionC6getLogSSyF",
+            "moduleName": "TestPrintHelloFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setLogger",
+            "printedName": "setLogger(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String, Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String, Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Swift.String, Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23TestPrintHelloFramework0C15LoggerExtensionC03setE08callbackyySS_SStcSg_tF",
+            "mangledName": "$s23TestPrintHelloFramework0C15LoggerExtensionC03setE08callbackyySS_SStcSg_tF",
+            "moduleName": "TestPrintHelloFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "s:17TestMainFramework10LogPrinterC",
-        "mangledName": "$s17TestMainFramework10LogPrinterC",
-        "moduleName": "TestMainFramework",
-        "isExternal": true,
-        "hasMissingDesignatedInitializers": true,
+        "usr": "s:23TestPrintHelloFramework0C15LoggerExtensionC",
+        "mangledName": "$s23TestPrintHelloFramework0C15LoggerExtensionC",
+        "moduleName": "TestPrintHelloFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -93,10 +218,183 @@
           },
           {
             "kind": "Conformance",
-            "name": "LogHello",
-            "printedName": "LogHello",
-            "usr": "s:17TestMainFramework8LogHelloP",
-            "mangledName": "$s17TestMainFramework8LogHelloP"
+            "name": "LogExtension",
+            "printedName": "LogExtension",
+            "usr": "s:17TestMainFramework12LogExtensionP",
+            "mangledName": "$s17TestMainFramework12LogExtensionP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TestMainFramework",
+        "printedName": "TestMainFramework",
+        "declKind": "Import",
+        "moduleName": "TestPrintHelloFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HelloLoggerRegistrar",
+        "printedName": "HelloLoggerRegistrar",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "registerExtensions",
+            "printedName": "registerExtensions(to:config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LogPrinter",
+                "printedName": "TestMainFramework.LogPrinter",
+                "usr": "s:17TestMainFramework10LogPrinterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23TestPrintHelloFramework0C15LoggerRegistrarC18registerExtensions2to6configy0a4MainD010LogPrinterC_SDySSypGtF",
+            "mangledName": "$s23TestPrintHelloFramework0C15LoggerRegistrarC18registerExtensions2to6configy0a4MainD010LogPrinterC_SDySSypGtF",
+            "moduleName": "TestPrintHelloFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HelloLoggerRegistrar",
+                "printedName": "TestPrintHelloFramework.HelloLoggerRegistrar",
+                "usr": "c:@M@TestPrintHelloFramework@objc(cs)HelloLoggerRegistrar"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TestPrintHelloFramework@objc(cs)HelloLoggerRegistrar(im)init",
+            "mangledName": "$s23TestPrintHelloFramework0C15LoggerRegistrarCACycfc",
+            "moduleName": "TestPrintHelloFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TestPrintHelloFramework@objc(cs)HelloLoggerRegistrar",
+        "mangledName": "$s23TestPrintHelloFramework0C15LoggerRegistrarC",
+        "moduleName": "TestPrintHelloFramework",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ExtensionRegistrarProtocol",
+            "printedName": "ExtensionRegistrarProtocol",
+            "usr": "s:17TestMainFramework26ExtensionRegistrarProtocolP",
+            "mangledName": "$s17TestMainFramework26ExtensionRegistrarProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       }

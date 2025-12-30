@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/TestPrintHelloFramework-Swift.h</key>
 		<data>
-		L/chsb5BRaqErrT5uLr0E1Cp4lo=
+		tIm5b+oI/wKmyX9wHEV2eka+k60=
 		</data>
 		<key>Headers/TestPrintHelloFramework.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ib7JiC/24+PXYPeLTaR1g7+M/Ug=
+		NU51ITIq6v/OtFR78TO3ywejVJY=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		0qiGr2yubiUFz9dJHsWcbyyVTzQ=
+		oBsqCqm/ihKlEMzrJ77w8cx5S2Q=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MwuU8SRJDVrwLqYuupBXgiOjOEk=
+		W/ZPXoX5tDjEEB5cEcxtWeVbn5U=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		UdieHVaN2JLZWOEqCNGKnV1pkdc=
+		SL2iwDgzXSIEMT/vjLJGY0pNByQ=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MwuU8SRJDVrwLqYuupBXgiOjOEk=
+		W/ZPXoX5tDjEEB5cEcxtWeVbn5U=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GZRnbMIN7A0v/OwusnXACz/mA6w=
+		FdlRtkRG95orfz+2pBU2DiD1uwQ=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		0qiGr2yubiUFz9dJHsWcbyyVTzQ=
+		oBsqCqm/ihKlEMzrJ77w8cx5S2Q=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		1P8aZcfLpCVOwhO+FbZzUHR4Un0=
+		Q7bAZvWz98ZQ1OyRZwKl+CH71Tw=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0+sBdpKjrvb/PJ/LwH6AdIAbjhE=
+		62Nf5QIjxLnSH8CdVa7h6E4qmFk=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1P8aZcfLpCVOwhO+FbZzUHR4Un0=
+		Q7bAZvWz98ZQ1OyRZwKl+CH71Tw=
 		</data>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bDqd6949+MoLlh0i5Uur8bVh3TE=
+		T+VakflttAe/7dmQOGutHpjqRM8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hmfu2bHXFvi5cz52X6m/BACxNRPvN4kR6BICgCEOjaI=
+			aVS+Ge42kgHMOFEWxFTnCm33sq56JoBuskk3w6YhIHk=
 			</data>
 		</dict>
 		<key>Headers/TestPrintHelloFramework.h</key>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k3sIOUh3l1VWyAFsNddQUUUY9TD1IyCI9a231JrFgrk=
+			oESaX3kkuKyrgTihaTp1jU7AQVAtkE7T7+uVWsELhzQ=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WpGcN8uhejFMN8wxkADxMG/a7od7RhPcIVzD05DpbiU=
+			mgsEAVyWaFihiz2nLDjKRNFdaZjolOJv7pM7oI2xceQ=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XW/cxWDkxax3pG6URss6GcHIHhBBx/uttmzvoa4weDs=
+			42dDKjzqrUMyBV60cQPfxFMyYqg4SmUE52re4+Cs7Rs=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WpGcN8uhejFMN8wxkADxMG/a7od7RhPcIVzD05DpbiU=
+			mgsEAVyWaFihiz2nLDjKRNFdaZjolOJv7pM7oI2xceQ=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8HkmUdNvpx6YtasrgdBLmsigO1UN4gWS2maDvxNPUdA=
+			YjkHXbJk/73vKfhuCBgUEhnAbO6iZS54vOeiRIaoYco=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k3sIOUh3l1VWyAFsNddQUUUY9TD1IyCI9a231JrFgrk=
+			oESaX3kkuKyrgTihaTp1jU7AQVAtkE7T7+uVWsELhzQ=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wE4EklV/d6hfZGv/BVFEJblJsqvZISj5TIJs9bSRtvg=
+			PzOhv6j/QKP7cik0Xuc+ZaqJjvdRG/hhdfCFCFgo040=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8MOOt7vFH7GLD9GlAdfMYRJ4Ol3+NriYdZZ7hlAc3FM=
+			BjIiuPWJfUANRJglOjkC1D8q35d9hudCkPl8yVpHc3k=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wE4EklV/d6hfZGv/BVFEJblJsqvZISj5TIJs9bSRtvg=
+			PzOhv6j/QKP7cik0Xuc+ZaqJjvdRG/hhdfCFCFgo040=
 			</data>
 		</dict>
 		<key>Modules/TestPrintHelloFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M3Qk8o9ggHESqjFEfX/XUJt7ywL1K+sizaI/dDYS6AM=
+			b02au8UYNEYyV736CX1U84prqJI8xZn9t4XhntAve2k=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

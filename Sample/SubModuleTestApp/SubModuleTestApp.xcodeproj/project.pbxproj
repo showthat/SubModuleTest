@@ -45,6 +45,7 @@
 		789779B22A1C9D4300A7EA25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		789779B52A1C9D4300A7EA25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2DEF8499BB485FA6FA96EAB /* Pods-SubModuleTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubModuleTestApp.debug.xcconfig"; path = "Target Support Files/Pods-SubModuleTestApp/Pods-SubModuleTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BD062AC62F03B2AC00CF6A79 /* libWrapperStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWrapperStaticLib.a; sourceTree = "<group>"; };
 		BD875DD52E289A1900F82A5B /* TestMainFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestMainFramework.xcframework; path = /Users/enliplemacbook/Desktop/TEST/SubModuleTest/Sources/TestMainFramework.xcframework; sourceTree = "<absolute>"; };
 		BD875DD62E289A1900F82A5B /* TestPrintGoodbyeFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintGoodbyeFramework.xcframework; path = /Users/enliplemacbook/Desktop/TEST/SubModuleTest/Sources/TestPrintGoodbyeFramework.xcframework; sourceTree = "<absolute>"; };
 		BD875DD72E289A1900F82A5B /* TestPrintHelloFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TestPrintHelloFramework.xcframework; path = /Users/enliplemacbook/Desktop/TEST/SubModuleTest/Sources/TestPrintHelloFramework.xcframework; sourceTree = "<absolute>"; };
@@ -79,6 +80,7 @@
 		789779A22A1C9D4300A7EA25 = {
 			isa = PBXGroup;
 			children = (
+				BD062AC62F03B2AC00CF6A79 /* libWrapperStaticLib.a */,
 				BD875DD52E289A1900F82A5B /* TestMainFramework.xcframework */,
 				BD875DD62E289A1900F82A5B /* TestPrintGoodbyeFramework.xcframework */,
 				BD875DD72E289A1900F82A5B /* TestPrintHelloFramework.xcframework */,
@@ -369,6 +371,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -406,6 +412,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
